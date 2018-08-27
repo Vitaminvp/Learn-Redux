@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'source-map',
   entry: [
     
-    './client/reduxstagram'
+    './client/vistagram'
   ],
   output: {
     path: path.join(__dirname, 'dist'),

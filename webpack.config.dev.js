@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'source-map',
   entry: [
     'webpack-hot-middleware/client',
-    './client/reduxstagram'
+    './client/vistagram'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -26,7 +26,7 @@ module.exports = {
     },
     // CSS
     { 
-      test: /\.styl$/, 
+      test: /\.styl$/,
       include: path.join(__dirname, 'client'),
       loader: 'style-loader!css-loader!stylus-loader'
     }
